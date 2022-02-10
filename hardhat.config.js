@@ -1,6 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
+require("solidity-coverage")
 
-//require("Donation.sol")
 
 
 task("makeDonation", "Make donation", async (taskArgs, hre) => {
